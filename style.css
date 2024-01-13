@@ -139,7 +139,42 @@ main{
         font-size: 1.4rem;
     }
  /* enjoy-part end */
+
+ /* Our Sponspors part start */
+    .Sponspors-container{
+        text-align: center;
+    }
+    .Sponspors-photo-container{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .Sponspors-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    }
+    .Sponspors-dis{
+    color: #727272;
+    }
+ /* Our Sponspors part end */
+
+
+
+
+
 /* main design end  */
+
+
+
+
+
+
+
+
+
+
 
 
 /* banner media queary */
@@ -159,6 +194,15 @@ main{
     .feature-photo-container{
         grid-template-columns: 1fr;
     }
+    .card-container{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+    .Sponspors-photo-container{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -174,5 +218,14 @@ main{
     }
     .feature-text-container{
         padding-bottom: 15px;
+    }
+    .card-container{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+    .Sponspors-photo-container{
+        flex-direction: column;
+        gap: 20px;
     }
 }
