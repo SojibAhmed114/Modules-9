@@ -206,8 +206,23 @@ main{
     }
  /* Our Sponspors part end */
 
-
-
+/* footer part design */
+    footer{
+    height: 10vh;
+    margin-top: 30px;
+}
+.foo{
+    width: 90vw;
+    height: 100%;
+    background-color: #FF900E;
+    margin: 0 auto;
+    text-align: center;
+}
+.foo p{
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 600;
+}
 
 
 /* main design end  */
