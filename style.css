@@ -106,6 +106,39 @@ main{
 }
  /* feature part */
 
+
+ /* enjoy-part start */
+    .card-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 0;
+    }
+    .card-container .card-box{
+        border-radius: 8px;
+        border: 1px solid #FF900E;
+        text-align: center;
+        padding: 40px 30px;
+    }
+    .enjoy-title{
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #131313;
+    }
+    .enoy-dis{
+        color: #727272;
+    }
+    .card-status{
+        color: #424242;
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+
+    .card-title{
+        color: #727272;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+ /* enjoy-part end */
 /* main design end  */
 
 
@@ -114,13 +147,20 @@ main{
     header{
         padding: 20px;
     }
-    nav , .feature-full-container {
+    nav {
         flex-direction: column;
+    }
+    .feature-full-container{
+        flex-direction: column-reverse;
+    }
+    .feature-text-container{
+        padding-bottom: 15px;
     }
     .feature-photo-container{
         grid-template-columns: 1fr;
     }
 }
+
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
     header{
@@ -134,5 +174,5 @@ main{
     }
     .feature-text-container{
         padding-bottom: 15px;
-}
+    }
 }
