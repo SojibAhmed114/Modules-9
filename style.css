@@ -67,6 +67,7 @@ nav{
 /* main design start  */
 main{
     max-width: 1440px;
+    width: 90vw;
     margin: 0 auto;
 }
 
