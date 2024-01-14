@@ -245,7 +245,7 @@ main{
     header{
         padding: 20px;
     }
-    nav , .girls-design{
+    nav ,  .girls-design{
         flex-direction: column;
     }
     .girl-card-container{
