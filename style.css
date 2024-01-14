@@ -258,9 +258,18 @@ main{
     }
     .img-card{
         position: static;
-        width: 350px;
+        width: 250px;
         margin: 10px auto;
+        padding: 8px;
     }
+    .img-card h2{
+        font-size: 2rem;
+    }
+    .img-card p{
+        font-size: 1rem;
+    }
+
+
     .feature-full-container{
         flex-direction: column-reverse;
     }
